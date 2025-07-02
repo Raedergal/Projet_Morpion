@@ -1,0 +1,17 @@
+
+la condition de victoire :
+peut etre creer un tableau par condition de victoire. 
+Par exemple quand le joueur 1 incremente une case ca rempli un tableau avec une valeur (par exemple 1)
+si la somme des valeur font strictement 3 (1+1+1) c'est gagné. sinon ca continue
+
+pour start :
+faire une boucle for avec en i le nombre de ligne
+et une deuxieme boulce avec en j le nombre de col
+et faire un delire de variable pour determiner i et j
+creer une div par i et dedans creer 1 "p" (ou div avec img) par j
+
+
+utiliser le "!" pour creer une condition d'affichage du x ou o si cest deja rempli
+
+currentPlayer = currentPlayer === "X" ? "O" : "X"; pour le ternaire
+ou en if else
