@@ -10,15 +10,21 @@
 
 <body>
     <header>
-        <h1>Tic-Tac-Toe</h1>
+        <form id="form">
+            <select id="selectGame">
+                <option value="morpionPVP">morpionPVP</option>
+                <option value="morpionPVE">morpionPVE</option>
+                <option value="puissance4">Puissance4</option>
+            </select>
+        </form>
+        <h1 id="h1"></h1>
         <button id="startBtn">Start</button>
         <button id="restartBtn">Restart</button>
     </header>
 
     <main>
         <section id="gameContainer">
-            <p>Le but du jeu est d'aligner avant son adversaire 3 symboles identiques horizontalement, verticalement ou
-                en diagonale.</p>
+            <p id="rules"></p>
             <div id="gridContainer">
 
             </div>
